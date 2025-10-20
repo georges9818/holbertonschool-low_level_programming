@@ -1,2 +1,2 @@
-#!/bin/bash
-puts "Programming is like building a multilingual puzzle argv[0]"
+#include <stdio.h>
+puts (Programming is like building a multilingual puzzle argv[0])
