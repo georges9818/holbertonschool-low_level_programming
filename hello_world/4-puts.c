@@ -1,2 +1,11 @@
-#!/bin/bash
-gcc -o 4-puts_0 -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c 
+#include <stdio.h>
+/**
+ * main - fonction void 
+ * puts - print "Programming is like building a multilingual puzzle,"
+ * Return: (0)
+*/
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle,");
+	return (0);
+}
