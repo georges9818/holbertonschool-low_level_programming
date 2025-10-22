@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdio.h>
 /**
-* main - function void
-* printf - print "Ce programme attribuera la variable n"
-*Return: (0)
+* main - Entry point
+* Description: This program assigns a random number to the variable n
+* each time it is executed and printf zero negative positive
+* Return: (0)
 */
 int main(void)
 {
@@ -20,5 +23,5 @@ else
 printf("is negative\n");
 }
 
- return (0);
+return (0);
 }
