@@ -6,12 +6,19 @@
 */
 int main(void)
 {
-printf(int n;)
-if
+int n = 0;
+if (n > 0)
+{
 printf("is positive\n");
-esle if
+}
+else if (n == 0)
+{
 printf("is zero\n");
+}
 else
+{
 printf("is negative\n");
-return (0);
+}
+
+ return (0);
 }
