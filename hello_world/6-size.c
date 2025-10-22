@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+* main - fonction void
+* printf - print "Size char int long int long long int float double"
+* Return: (0)
+*/
 int main(void)
 {
 printf("Size of a char: %zu byte(s)\n", sizeof(char));
