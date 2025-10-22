@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdio.h>
 /**
 * main - Entry point
 * Description: This program assigns a random number to the variable n
@@ -9,7 +7,7 @@
 */
 int main(void)
 {
-int n = 0;
+int n = 5;
 if (n > 0)
 {
 printf("%d is positive\n", n);
