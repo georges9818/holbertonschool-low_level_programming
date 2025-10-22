@@ -7,7 +7,7 @@
 int main(void)
 {
 int n;
-printf("n of an int: %d\n" , n);
+printf("n of an int: %d\n", n = 5);
 if (n > 0)
 printf("n > 0 of an if: %d\n", n);
 else if (n == 0)
@@ -16,4 +16,3 @@ else
 printf("is negative\n");
 return (0);
 }
- 
