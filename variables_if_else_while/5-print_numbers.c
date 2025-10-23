@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-char c;
-for (c = '10'; c <= '0'; c++)
-putchar(c);
+int n;
+for (n = 0; n < 10; n++)
+putchar(n + '0');
 putchar('\n');
 return (0);
 }
