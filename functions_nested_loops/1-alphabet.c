@@ -1,13 +1,17 @@
 #include "main.h"
 /**
-* main - check the code
-* 
+* main - checkcode
+*
 * Return: Always
-*\
-int main(void)
+*/
+
+int print_alphabet(void)
 {
-char _putchar;
-for (_putchar = 'a'; _putchar <= 'z'; c++)
-write(1, "'a'<='z'_putchar)12";
-write(1, "_putchar \n"
+char lettre;
+for (lettre = 'a'; lettre <= 'z'; lettre++)
+{
+write(1,&lettre, 1); 
+}
+write(1, "\n", 1);
 return (0);
+}
