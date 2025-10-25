@@ -1,8 +1,7 @@
 #include "main.h"
 /**
-* int _islower - affichier les caractères 
+* _islower - vérifie si un caractère est en minuscule 
 * @c: caractère à tester
-* 
 * 
 * Return: Always
 */
