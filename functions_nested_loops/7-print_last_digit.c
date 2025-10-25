@@ -3,7 +3,7 @@
 * print_last_digit - affiche le dernier chiffre d'un nombre
 * @n: le nombre dont on veut affichier et le dernier
 *
-* Return:
+* Return: la valeur du dernier chiffre de n
 */
 int print_last_digit(int n)
 {
