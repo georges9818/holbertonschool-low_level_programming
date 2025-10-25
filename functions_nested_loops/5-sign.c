@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* print_sign(int n)
-* @c: fonction qui affiche le signe d'un nombre
-*
-* Return: Always
+* print_sign - affiche le signe d'un nombre
+* @n: le nombre dont on veut afficher le signe
+* 
+* Return: 1 n positif nul negatif
 */
 int print_sign(int n)
 {
