@@ -1,14 +1,13 @@
 #include "main.h"
 /**
 * jack_bauer - affiche chaque minute de la journée
-* @n: le nombre dont affichier chaque minute
 *
-* Return: void 
+* Return: void
 */
 void jack_bauer(void)
 {
 int h, m;
-char time [6];
+char time[6];
 for (h = 0; h < 24; h++)
 {
 for (m = 0; m < 60; m++)
