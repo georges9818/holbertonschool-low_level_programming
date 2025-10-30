@@ -23,7 +23,7 @@ else if (started)
 break;
 i++;
 }
-return (result *sign);
+return (result  *sign);
 }
 
 
