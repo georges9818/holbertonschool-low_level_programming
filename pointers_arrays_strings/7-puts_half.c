@@ -1,6 +1,7 @@
 #include "main.h"
 /**
-* puts_half - fonction qui affiche la moitié d'une chaîne * @str: pointeur de caractère
+* puts_half - fonction qui affiche la moitié d'une chaîne
+* @str: pointeur de caractère
 */
 void puts_half(char *str)
 {
