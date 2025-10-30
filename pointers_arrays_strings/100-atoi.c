@@ -1,30 +1,29 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+* _atoi - convertit une chaîne en entier
+* @s: pointeur vers la chaîne
+* Return: l'entier converti, ou 0 s'il n'y a pas de nombre
+*/
+int _atoi(char *s)
 {
-    int nb;
-
-    nb = _atoi("98");
-    printf("%d\n", nb);
-    nb = _atoi("-402");
-    printf("%d\n", nb);
-    nb = _atoi("          ------++++++-----+++++--98");
-    printf("%d\n", nb);
-    nb = _atoi("214748364");
-    printf("%d\n", nb);
-    nb = _atoi("0");
-    printf("%d\n", nb);
-    nb = _atoi("Suite 402");
-    printf("%d\n", nb);
-    nb = _atoi("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA             ");
-    printf("%d\n", nb);
-    nb = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
-    printf("%d\n", nb);
-    return (0);
+int i = 0;
+int sign = 1;
+int result = 0;
+int started = 0;
+while (s[i] != '\0')
+{
+if (s[i] == '-')
+sign *= -1;
+else if (s[i] >= '0' && s[i] <= '9')
+{
+started = 1;
+result = result * 10 + (s[i] - '0');
 }
+else if (started)
+break;
+i++;
+}
+return (result *sign);
+}
+
+
