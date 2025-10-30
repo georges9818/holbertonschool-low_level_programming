@@ -1,15 +1,19 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+* print_rev - fonction qui imprime une chaîne de caractères à l'envers
+* @s: pointeur de caractère
+*/
+void print_rev(char *s)
 {
-    char *str;
-
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    print_rev(str);
-    return (0);
+int longueur = 0;
+while (s[longueur] != '\0')
+{
+longueur++;
+}
+while (longueur > 0)
+{
+longueur--;
+_putchar(s[longueur]);
+}
+_putchar('\n');
 }
